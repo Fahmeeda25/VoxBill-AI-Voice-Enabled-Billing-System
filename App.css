@@ -1,0 +1,108 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+}
+
+/* Main Container */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Heading */
+h1 {
+  color: #333;
+}
+
+/* Input Section */
+.inputContainer {
+  margin: 15px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  width: 150px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Voice Button */
+.voiceBtn {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Add Button */
+.addBtn {
+  background-color: #28a745;
+  color: white;
+}
+
+/* PDF Button */
+.pdfBtn {
+  background-color: green;
+  color: white;
+}
+
+/* Clear Button */
+.clearBtn {
+  background-color: red;
+  color: white;
+}
+
+/* Table */
+.table {
+  margin: auto;
+  width: 80%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #e9ecef;
+}
+
+/* Delete Button */
+.deleteBtn {
+  background: none;
+  color: red;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Grand Total */
+.grandTotal {
+  color: green;
+}
+
+/* History Card */
+.historyCard {
+  border: 1px solid #ccc;
+  margin: 10px auto;
+  padding: 10px;
+  width: 60%;
+  border-radius: 8px;
+  background-color: white;
+}
